@@ -2,7 +2,7 @@ import streamlit as st
 from cleaner import cleaner
 from solver import solver
 
-letters = st.text_input('SpellingBee letters with center letter first:')
+letters = st.text_input('Spelling Bee letters with center letter first:')
 
 letters = cleaner(letters)
 
